@@ -24,74 +24,72 @@ Download CV
 
 #---------- HERO ----------#
 
-alt = Ethan's Photo
+alt = Sophie's Photo
 
-12
-Years of Success
-
-800+
-Projects Completed
-
-<ion-icon name="trophy"></ion-icon>
-
-alt = I'm developer from New York
 
 Hello I'm
 
-Ethan Ward
+Sophie Funck
 
-Web Developer from New York
+UX/UI Designer
 
 Adipisicing elit. Neque nulla voluptatum eos repellat deserunt nesciunt tempore porro totam.
 
-Get a Quote
+CONTACT
 
-About Me
+ABOUT ME
 
 
 
 #---------- ABOUT ----------#
 
-alt = Ethan's Photo
+alt = Sophie's Photo
 
-alt = Ethan's Photo
+alt = Sophie's Photo
 
-<ion-icon name="logo-css3"></ion-icon>
-<ion-icon name="logo-javascript"></ion-icon>
-<ion-icon name="logo-angular"></ion-icon>
 
-I'm a Developer
 
-I Develop Application that Help People
+I belive in the power of process
 
-Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat cupidatat
+I am a Designer & Researcher
 
-Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+After working post-graduation for two years in Savannah, I moved to Boston, MA to complete a Post-Baccalaureate program in Fine Art at the School of the Museum of Fine Arts at Tufts University. Wanting to return to my Chicago roots, I made the move back to the windy city in the early Summer of 2023
 
-View Portfolio
+In August of 2023, I enrolled in Northwestern University’s UI/UX bootcamp, which began an exciting new career opportunity for this new chapter in my life. I am passionate about design, art, and people. and am excited to pursue a career as a UX/UI designer - where I can unite these passions to create a better and more beautiful world for everyone.
+
+
+
+PORTFOLIO
 
 
 
 #---------- PORTFOLIO ----------#
 
-Portfolio
+PORTFOLIO
 
-My Amazing Works
+CASE STUDIES
 
-Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+Here are recent case studies showing my UX/UI design and research skills.
 
-Youtube
+CPAG
 
-Web Application for Desiverse
+Non-Proft ReDesign: Chicago Public Art Group
 
-View Project 
+LEARN MORE
 <ion-icon name="arrow-forward"></ion-icon>
 
-Vimeo
+STUDIO SPOT
 
-Soundcloud
+Native Application: Studio Spot
 
-Details
+LEARN MORE
+
+U.S. DoED
+
+Website Re-Design: United States Department of Education
+
+LEARN MORE
+
 
 
 
@@ -169,10 +167,6 @@ Jim Morisson Says when the musics over turn off the light
 
 #---------- FOOTER ----------#
 
-&copy; 2022 codewithsadee. All Rights Reseverd
-
-Terms & Condition 
-Privacy Policy
 
 
 
