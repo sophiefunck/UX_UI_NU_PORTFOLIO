@@ -5,13 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Sophie Funck - UX/UI Designer</title>
-  <meta name="title" content="Sophie Funck - UX/UI Designer">
-  <meta name="description" content="This is a personal portfolio made by Sophie Funck">
+  <title>SOPHIE FUNCK - UX/UI DESIGNER</title>
 
   <!-- 
     - favicon
@@ -19,37 +13,21 @@
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
   <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- 
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <!-- 
-    - preload images
+    - google font link
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
 </head>
 
-<body>
-
-  <!-- 
-    - #PRELOADER
-  -->
-
-  <div class="preloader" data-preloader>
-    <div class="circle"></div>
-  </div>
-
-
-
-
+<body id="top">
 
   <!-- 
     - #HEADER
@@ -58,46 +36,48 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" width="170" height="40" alt="LOGO HERE">
+      <a href="#">
+        <h1 class="logo">SOPHIE FUNCK</h1>
       </a>
 
-      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
-        <span class="line line-1"></span>
-        <span class="line line-2"></span>
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
       </button>
 
-      <nav class="navbar" data-navbar>
+      <nav class="navbar container">
         <ul class="navbar-list">
 
           <li>
-            <a href="#" class="navbar-link">HOME</a>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">ABOUT</a>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">WORK</a>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">ART</a>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">BLOG</a>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">CONTACT</a>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn-primary">Download CV</a>
           </li>
 
         </ul>
       </nav>
-
-      <div class="overlay" data-nav-toggler data-overlay></div>
 
     </div>
   </header>
@@ -113,30 +93,51 @@
         - #HERO
       -->
 
-      <section class="section hero" aria-label="home">
+      <section class="hero" id="home">
         <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <div class="elem elem-1">
+              <p class="elem-title">12</p>
+
+              <p class="elem-text">Years of Success</p>
+            </div>
+
+            <div class="elem elem-2">
+              <p class="elem-title">800+</p>
+
+              <p class="elem-text">Projects Completed</p>
+            </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
+            </div>
+
+            <img src="./assets/images/rotate-img.png" width="169" height="172" alt="I'm developer from New York"
+              class="rotate-img">
+
+          </div>
 
           <div class="hero-content">
 
-            <h1 class="h1 hero-title">SOPHIE FUNCK</h1>
+            <h2 class="hero-title">
+              <span></span>
+              <strong>SOPHIE FUNCK</strong> UX/UI DESIGNER
+            </h2>
 
-            <p class="hero-subtitle">
-              UX/UI DESIGNER
+            <p class="hero-text">
+              As an artist and designer, I am passionate about harnessing the transformative power of design to create a more enriching and beautiful world.
             </p>
 
-            <div class="hero-banner">
-              <img src="./assets/images/hero-banner.jpg" width="800" height="800" alt="kane williams" class="w-100">
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+
+              <a href="#about" class="btn">About Me</a>
             </div>
-
-            <p class="section-text">
-                As an artist and designer, I am passionate about harnessing the transformative power of design to create a more enriching and beautiful world.
-            </p>
-
-            <a href="#" class="btn has-before">
-              <span class="span">Download CV</span>
-
-              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
-            </a>
 
           </div>
 
@@ -148,167 +149,152 @@
 
 
       <!-- 
-        - #SERVICE
+        - #ABOUT
       -->
 
-      <section class="service" aria-labelledby="service-label">
+      <section class="section about" id="about">
         <div class="container">
 
-          <div class="title-wrapper">
+          <figure class="about-banner">
 
-            <div>
-              <p class="section-subtitle">
-                SKILLS AND TOOLS
-              </p>
+            <img src="./assets/images/about-banner.jpg" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
 
-              <h2 class="h2 section-title" id="service-label">SKILLS  TOOLS</h2>
+            <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="Ethan's Photo"
+              class="abs-img">
+
+            <div class="abs-icon abs-icon-1">
+              <ion-icon name="logo-css3"></ion-icon>
             </div>
+
+            <div class="abs-icon abs-icon-2">
+              <ion-icon name="logo-javascript"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <ion-icon name="logo-angular"></ion-icon>
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Developer</p>
+
+            <h2 class="h2 section-title">I Develop Application that Help People</h2>
 
             <p class="section-text">
-            THIS PARAGRAPH IS WHERE THINGS SHOULD GO OR SOMETHING 
+              Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu
+              fugiat nulla pariatu epteur sint occaecat cupidatat
             </p>
 
-          </div>
+            <p class="section-text">
+              Krnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+              omnis
+            </p>
 
-          <div class="slider" data-slider>
-
-            <ul class="slider-container service-list" data-slider-container>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="desktop-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Website Design</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">01</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="podium-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">SEO Marketing</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">02</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="basket-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">eCommerce</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">03</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="color-filter-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Graphic Design</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">04</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="megaphone-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Digital Marketing</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">05</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
-
-                </div>
-              </li>
-
-              <li class="slider-item" data-slider-item>
-                <div class="service-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="chatbubbles-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Social Media</h3>
-
-                  <p class="card-text">
-                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
-                  </p>
-
-                  <span class="text-lg card-number">06</span>
-
-                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
-
-                </div>
-              </li>
-
-            </ul>
-
-            <div class="slider-controls">
-              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
-                <div class="line"></div>
-                <div class="arrow"></div>
-              </button>
-
-              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
-                <div class="line"></div>
-                <div class="arrow"></div>
-              </button>
-            </div>
+            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
 
           </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">My Amazing Works</h2>
+
+          <p class="section-text">
+            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Youtube</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Vimeo</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Soundcloud</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Details</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
 
         </div>
       </section>
@@ -321,79 +307,171 @@
         - #SKILLS
       -->
 
-      <section class="section skills" aria-label="our skills">
+      <section class="section skills" id="skills">
         <div class="container">
 
-          <p class="section-subtitle">I Make The Future</p>
+          <p class="section-subtitle">My Skills</p>
 
-          <h2 class="h2 section-title">I Develop & Create Digital Future.</h2>
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
 
-          <div class="skills-wrapper">
+          <p class="section-text">
+            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+          </p>
 
-            <div>
-              <p class="section-text">
-                Pellentesque magna magna semper dapibus felis necatin aliuen risus. Pellentesque habitant morbi senectus
-                dictum.
-              </p>
+          <ul class="skills-list">
 
-              <p class="section-text">
-                Web design magna magna semper dapibus felis necatin aliuen risus. Pellentesque habitant morbi tristique
-                senectus the neuse malesuada nullam ac lorem miss the duru.
-              </p>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">CSS</h3>
 
-              <a href="#" class="btn has-before">info@kwilliams.com</a>
-            </div>
+                <data class="skills-data" value="95">95%</data>
+              </div>
 
-            <div>
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
 
-              <ul class="skills-list">
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">React</h3>
 
-                <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Design</p>
+                <data class="skills-data" value="75">75%</data>
+              </div>
 
-                    <data class="progress-value" value="90">90%</data>
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">MongoDB</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">Python</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">PHP</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">JavaScript</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+
+              <form action="" class="contact-form">
+
+                <input type="text" name="name" placeholder="Name" required class="contact-input">
+
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
+
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+
+                <button type="submit" class="btn-submit">Submit Message</button>
+
+              </form>
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
                   </div>
 
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 90%;"></div>
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      20, London, United Kingdom
+                    </address>
                   </div>
+
                 </li>
 
-                <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Branding</p>
+                <li class="contact-item">
 
-                    <data class="progress-value" value="80">80%</data>
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
                   </div>
 
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 80%;"></div>
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:hello@ethan.com" class="contact-item-link">hello@ethan.com</a>
                   </div>
+
                 </li>
 
-                <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Web Design</p>
+                <li class="contact-item">
 
-                    <data class="progress-value" value="95">95%</data>
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
                   </div>
 
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 95%;"></div>
-                  </div>
-                </li>
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
 
-                <li>
-                  <div class="progress-wrapper">
-                    <p class="progress-label">Social Media</p>
-
-                    <data class="progress-value" value="85">85%</data>
+                    <a href="tel:+1234567890" class="contact-item-link">+123 456 7890</a>
                   </div>
 
-                  <div class="progress-bg">
-                    <div class="progress" style="width: 85%;"></div>
-                  </div>
                 </li>
 
               </ul>
@@ -410,199 +488,37 @@
 
 
       <!-- 
-        - #PORTFOLIO
-      -->
-
-      <section class="portfolio" aria-labelledby="portfolio-label">
-
-        <div class="title-wrapper container">
-
-          <div>
-            <p class="section-subtitle" id="portfolio-label">Our Works</p>
-
-            <h2 class="h2 section-title">Portfolio</h2>
-          </div>
-
-          <p class="section-text">
-            Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the drana risus tincidunt convallis
-            velit orci congue tortor eu dignissim ipsum suam non odio. Pellenta esuntion miss the imperdiet metus
-            ornare.
-          </p>
-
-        </div>
-
-        <div class="slider" data-slider>
-
-          <ul class="slider-container" data-slider-container>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-1.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Lab. 001</h3>
-
-                  <p class="card-text">Website Design</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-2.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Aer Agency</h3>
-
-                  <p class="card-text">Website / Development</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-3.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Joker Card</h3>
-
-                  <p class="card-text">UX Design / Web App</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-4.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Peaky Blinders</h3>
-
-                  <p class="card-text">Website / UX Design</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-5.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Design Zoom</h3>
-
-                  <p class="card-text">Branding / Design</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-            <li class="slider-item">
-              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
-
-                <img src="./assets/images/portfolio-6.jpg" width="600" height="600" loading="lazy" alt="portfolio"
-                  class="img-cover">
-
-                <div class="card-content">
-                  <h3 class="h3 card-title">Out Zone</h3>
-
-                  <p class="card-text">UX Design / Web App</p>
-                </div>
-
-                <a href="#" class="layer-link"></a>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <div class="slider-controls">
-            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
-              <div class="line"></div>
-              <div class="arrow"></div>
-            </button>
-
-            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
-              <div class="line"></div>
-              <div class="arrow"></div>
-            </button>
-          </div>
-
-        </div>
-
-      </section>
-
-
-
-
-
-      <!-- 
         - #BLOG
       -->
 
-      <section class="section blog" aria-labelledby="blog-label">
+      <section class="section blog" id="blog">
         <div class="container">
 
-          <p class="section-subtitle" id="blog-label">Recent Articles</p>
+          <p class="section-subtitle">Latest News</p>
 
-          <h2 class="h2 section-title">Latest News</h2>
+          <h2 class="h2 section-title">Checkout My Recent Blogs</h2>
+
+          <p class="section-text">
+            Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+          </p>
 
           <ul class="blog-list">
 
             <li>
               <div class="blog-card">
 
-                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
-                  <img src="./assets/images/blog-1.jpg" width="700" height="470" loading="lazy"
-                    alt="Get Started With Tiktok Ads." class="img-cover">
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-1.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
                 </figure>
 
-                <div class="card-content">
+                <a href="#" class="card-tag">Web Development</a>
 
-                  <time class="time" datetime="2022-06-24">
-                    <span class="span text-lg">24</span>
-                    June 2022
-                  </time>
-
-                  <div>
-                    <h3 class="h3 card-title">Get Started With Tiktok Ads.</h3>
-
-                    <p class="card-text">
-                      Phasellus et lacus suscipit congue nis in the miss mine one miss the drana risus in tincidunt
-                      ornare.
-                    </p>
-
-                    <a href="#" class="btn has-before">
-                      <span class="span">Read more</span>
-
-                      <ion-icon name="arrow-forward"></ion-icon>
-                    </a>
-                  </div>
-
-                </div>
+                <h3 class="card-title">
+                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                </h3>
 
               </div>
             </li>
@@ -610,34 +526,37 @@
             <li>
               <div class="blog-card">
 
-                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
-                  <img src="./assets/images/blog-2.jpg" width="700" height="470" loading="lazy"
-                    alt="UX in Ecommerce – 5 things to avoid." class="img-cover">
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-2.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
                 </figure>
 
-                <div class="card-content">
+                <a href="#" class="card-tag">Web Development</a>
 
-                  <time class="time" datetime="2022-06-27">
-                    <span class="span text-lg">27</span>
-                    June 2022
-                  </time>
+                <h3 class="card-title">
+                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                </h3>
 
-                  <div>
-                    <h3 class="h3 card-title">UX in Ecommerce – 5 things to avoid.</h3>
+              </div>
+            </li>
 
-                    <p class="card-text">
-                      Phasellus et lacus suscipit congue nis in the miss mine one miss the drana risus in tincidunt
-                      ornare.
-                    </p>
+            <li>
+              <div class="blog-card">
 
-                    <a href="#" class="btn has-before">
-                      <span class="span">Read more</span>
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-3.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
 
-                      <ion-icon name="arrow-forward"></ion-icon>
-                    </a>
-                  </div>
+                <a href="#" class="card-tag">Web Development</a>
 
-                </div>
+                <h3 class="card-title">
+                  <a href="#">Jim Morisson Says when the musics over turn off the light</a>
+                </h3>
 
               </div>
             </li>
@@ -661,60 +580,32 @@
   <footer class="footer">
     <div class="container">
 
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">EMAIL</p>
-        </li>
-
-        <li>
-          <a href="mailto:info@kwilliams.com" class="footer-link">funck.sophie@gmail.com</a>
-        </li>
-
-      </ul>
+      <p class="SOPHIE FUNCK>
+        &copy; 2022 <a href="#" class="copyright-link">FUNCK.SOPHIE@GMAIL</a>
+      </p>
 
       <ul class="footer-list">
-
         <li>
-          <p class="h4 footer-list-title">WEBSITE</p>
+          <a href="#" class="footer-link">LINKED-IN</a>
         </li>
 
         <li>
-          <a href="#" class="footer-link">wwww.sophiefunck.com</a>
+          <a href="#" class="footer-link">WWW.SOPHIEFUNCK.COM</a>
         </li>
-
-      </ul>
-
-      <ul class="social-list">
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-dribbble"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-skype"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-
       </ul>
 
     </div>
   </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
 
 
 
