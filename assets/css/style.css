@@ -1,5 +1,14 @@
 /*-----------------------------------*\
   #style.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
+
+
+
+
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -14,11 +23,11 @@
   --cadet-blue-crayola: hsl(240, 10%, 70%);
   --gold-web-golden: hsl(50, 100%, 54%);
   --vivid-sky-blue: hsl(196, 84%, 63%);
-  --almost-black: (#242424);
+  --midnight-blue: hsl(231, 83%, 25%);
   --minion-yellow: hsl(50, 100%, 64%);
-  --independence: (#242424);
+  --independence: hsl(225, 24%, 27%);
   --orange-soda: hsl(7, 96%, 61%);
-  --space-black: #101010;
+  --space-cadet: hsl(0, 0%, 4%);
   --fiery-rose: hsl(353, 83%, 65%);
   --klein-blue: hsl(230, 80%, 39%);
   --bluetiful: hsl(222, 88%, 55%);
@@ -119,7 +128,7 @@ ion-icon {
 button,
 input,
 textarea {
-  background-color: var(--space-black);
+  background: none;
   border: none;
   font: inherit;
 }
@@ -138,8 +147,8 @@ html {
 }
 
 body {
-  background-color: var(--space-black);
-  color: var(--almost-black);
+  background-color: var(--space-cadet);
+  color: var(--cadet-blue-crayola);
   font-size: 1.6rem;
   line-height: 1.6;
   overflow-x: hidden;
@@ -261,14 +270,14 @@ body {
   left: 0;
   width: 100%;
   padding-inline: 20px;
-  visibility: visible;
-  opacity: 100;
+  visibility: hidden;
+  opacity: 0;
   transition: var(--transition-2);
 }
 
 .header.nav-active .navbar {
   visibility: visible;
-  opacity: 100;
+  opacity: 1;
 }
 
 .navbar-link {
