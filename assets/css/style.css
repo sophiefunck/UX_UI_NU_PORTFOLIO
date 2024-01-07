@@ -936,18 +936,97 @@ textarea.contact-input {
   /**
    * PORTFOLIO
    */
+.portfolio .section-title { margin-block-end: 18px; }
 
-  .portfolio-card .card-subtitle { font-size: var(--fs-5); }
+.portfolio .section-text { margin-block-end: 80px; }
 
-  .portfolio-card .btn-link { --fs-6: 1.6rem; }
+.portfolio-list {
+  display: grid;
+  gap: 60px;
+}
+
+.portfolio-card {
+  background-color: var(--space-cadet);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  border-radius: var(--radius-20);
+  font-family: var(--ff-inter);
+  color: var(--white);
+  font-weight: var(--fw-600);
+  transition: var(--transition-2);
+}
+
+
+.portfolio-list > li:nth-child(even) .card-content { margin-inline-start: auto; }
+
+.portfolio-card .card-subtitle {
+  color: var(--white);
+  font-style: italic;
+  margin-block-end: 5px;
+}
+
+.portfolio-card .card-title {
+  max-width: 20ch;
+  margin-block-end: 20px;
+  color: var(--white);
+}
+
+.portfolio-card .btn-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--fs-6);
+  text-transform: uppercase;
+  color: var(orange-soda);
+}
+
+.portfolio-card .btn-link ion-icon {
+  color: var(--orange-soda);
+  font-size: 1.6rem;
+}
 
 
 
   /**
    * SKILLS
    */
+   .skills .section-title { margin-block-end: 20px; }
 
-  .skills-list { column-gap: 100px; }
+   .skills .section-text { margin-block-end: 70px; }
+   
+   .skills-list {
+     display: grid;
+     gap: 25px;
+   }
+   
+   .skills-item .wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-block-end: 10px;
+   }
+   
+   .skills-title,
+   .skills-data {
+     color: var(--white);
+     font-size: var(--fs-5);
+     font-family: var(--ff-barlow);
+     font-weight: var(--fw-600);
+   }
+   
+   .skills-progress-box {
+     background-color: var(--white);
+     height: 8px;
+     border-radius: var(--radius-10);
+   }
+   
+   .skills-progress {
+     background-color: var(--orange-soda);
+     height: 100%;
+     border-radius: inherit;
+   }
 
 
 
