@@ -403,19 +403,25 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 120px 20px;
+  padding: 160px 20px;
   border-radius: var(--radius-20);
   font-family: var(--ff-inter);
   color: var(--white);
   font-weight: var(--fw-600);
   transition: var(--transition-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.portfolio-list > li:nth-child(even) .card-content { margin-inline-start: auto; }
+.portfolio-list > li:nth-child(even) .card-content { margin-inline-start: flex;
+text-orientation: left;
+}
 
 .portfolio-card .card-subtitle {
   color: var(--orange-soda);
   margin-block-end: 5px;
+  text-orientation: left;
 }
 
 .portfolio-card .card-title {
@@ -435,6 +441,9 @@ body {
   color: var(--orange-soda);
   font-size: 1.6rem;
 }
+
+
+
 
 
 
@@ -950,7 +959,7 @@ textarea.contact-input {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 120px 20px;
+  padding: 60px 20px;
   border-radius: var(--radius-20);
   font-family: var(--ff-inter);
   color: var(--white);
