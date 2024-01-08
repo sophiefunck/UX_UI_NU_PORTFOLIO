@@ -68,7 +68,7 @@
    * spacing
    */
 
-  --section-padding: 60px;
+  --section-padding: 30px;
 
   /**
    * shadow
@@ -251,7 +251,7 @@ body {
 }
 
 .logo {
-  color: var(--black);
+  color: white;
   font-family: var(--ff-jetbrains-mono);
   font-size: 2.4rem;
 }
@@ -306,7 +306,7 @@ body {
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../im/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -455,11 +455,13 @@ text-orientation: left;
 
 .skills .section-title { margin-block-end: 20px; }
 
-.skills .section-text { margin-block-end: 70px; }
+.skills .section-text { margin-block-end: 70px;
+color: black; }
 
 .skills-list {
   display: grid;
   gap: 25px;
+  color: black;
 }
 
 .skills-item .wrapper {
@@ -471,7 +473,7 @@ text-orientation: left;
 
 .skills-title,
 .skills-data {
-  color: var(--black);
+  color: black;
   font-size: var(--fs-5);
   font-family: var(--ff-inter);
   font-weight: var(--fw-600);
@@ -488,6 +490,7 @@ text-orientation: left;
   height: 100%;
   border-radius: inherit;
 }
+
 
 
 
@@ -586,6 +589,7 @@ textarea.contact-input {
 .footer {
   background-color: var(--black);
   padding-block: 60px;
+  color: white
 }
 
 .copyright {
