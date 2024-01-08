@@ -48,9 +48,9 @@
   --fs-1: 3.5rem;
   --fs-2: 3rem;
   --fs-3: 2.4rem;
-  --fs-4: 2rem;
-  --fs-5: 1.8rem;
-  --fs-6: 1.3rem;
+  --fs-4: 2.2rem;
+  --fs-5: 2.2rem;
+  --fs-6: 1.9rem;
 
   --fw-600: 600;
   --fw-700: 700;
@@ -379,7 +379,11 @@ body {
 
 .about :is(.section-title, .section-subtitle, .section-text) { text-align: left; }
 
-.about :is(.section-title, .section-text) { margin-block-end: 30px; }
+.about :is(.section-title, .section-text) { margin-block-end: 30px;
+ }
+
+.about :is(.section-text)
+{font-size: 20px;}
 
 
 
@@ -389,9 +393,13 @@ body {
   #PORTFOLIO
 \*-----------------------------------*/
 
-.portfolio .section-title { margin-block-end: 18px; }
+.portfolio .section-title { margin-block-end: 18px;
+color: blue }
 
-.portfolio .section-text { margin-block-end: 80px; }
+.portfolio .section-text { margin-block-end: 80px;
+font-size: 24px;
+color: black;
+font: 'Inter';}
 
 .portfolio-list {
   display: grid;
@@ -444,52 +452,30 @@ text-orientation: left;
 
 
 
-
-
-
-
-
 /*-----------------------------------*\
   #SKILLS
 \*-----------------------------------*/
+.abs-img,
+.abs-icon { display: none; }
 
-.skills .section-title { margin-block-end: 20px; }
+.skills { padding-block-start: 100px; }
 
-.skills .section-text { margin-block-end: 70px;
-color: black; }
-
-.skills-list {
-  display: grid;
-  gap: 25px;
-  color: black;
-}
-
-.skills-item .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-block-end: 10px;
-}
-
-.skills-title,
-.skills-data {
-  color: black;
-  font-size: var(--fs-5);
-  font-family: var(--ff-inter);
-  font-weight: var(--fw-600);
-}
-
-.skills-progress-box {
-  background-color: var(--klein-blue);
-  height: 8px;
+.about-banner {
+  background-color: var(--independence);
   border-radius: var(--radius-10);
+  margin-block-end: 10px;
+  size: 1200px 
 }
 
-.skills-progress {
-  background-color: var(--orange-soda);
-  height: 100%;
-  border-radius: inherit;
-}
+.skills-banner > .img-cover { border-radius: inherit; }
+
+.about :is(.section-title, .section-subtitle, .section-text) { text-align: left; }
+
+.about :is(.section-title, .section-text) { margin-block-end: 30px; }
+
+
+
+
 
 
 
@@ -579,6 +565,7 @@ textarea.contact-input {
 .contact-item-link { transition: var(--transition-1); }
 
 .contact-item-link:not(address):is(:hover, :focus) { color: var(--white); }
+
 
 
 
