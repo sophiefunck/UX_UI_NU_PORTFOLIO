@@ -885,7 +885,8 @@ textarea.contact-input {
    * ABOUT
    */
 
-  .about { padding-block: 180px; }
+  .about { padding-top: 100px;
+  }
 
   .about .container {
     display: grid;
@@ -938,6 +939,275 @@ textarea.contact-input {
     background-color: var(--rufous);
   }
 
+    /**
+   * SKILLS
+   */
+
+  .macbook-pro {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    }
+    .macbook-pro .div {
+    background-color: #ffffff;
+    width: 1512px;
+    height: 982px;
+    position: relative;
+    }
+    .macbook-pro .text-wrapper {
+    position: absolute;
+    top: 129px;
+    left: 242px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    .macbook-pro .text-wrapper-2 {
+    position: absolute;
+    top: 542px;
+    left: 242px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    .macbook-pro .frame {
+    position: absolute;
+    width: 510px;
+    height: 283px;
+    top: 193px;
+    left: 238px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 4px solid;
+    border-color: #2540e9;
+    }
+    .macbook-pro .text-wrapper-3 {
+    position: absolute;
+    top: 24px;
+    left: 32px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #0539e0;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    .macbook-pro .flexcontainer {
+    gap: 42px;
+    width: 438px;
+    height: 156px;
+    top: 80px;
+    left: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    }
+    .macbook-pro .text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 23.8px;
+    }
+    .macbook-pro .span {
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 23.8px;
+    }
+    .macbook-pro .frame-2 {
+    position: absolute;
+    width: 510px;
+    height: 283px;
+    top: 193px;
+    left: 764px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 4px solid;
+    border-color: #f570ef;
+    }
+    .macbook-pro .text-wrapper-4 {
+    position: absolute;
+    top: 24px;
+    left: 35px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #f570ef;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    .macbook-pro .flexcontainer-2 {
+    gap: 21px;
+    width: 431px;
+    height: 159px;
+    top: 79px;
+    left: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    }
+    .macbook-pro .span-wrapper {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+    }
+    .macbook-pro .text-wrapper-5 {
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+    }
+    .macbook-pro .group {
+    position: absolute;
+    width: 1028px;
+    height: 242px;
+    top: 614px;
+    left: 242px;
+    }
+    .macbook-pro .frame-3 {
+    position: relative;
+    height: 242px;
+    background-color: #0c0c0c;
+    border-radius: 15.62px;
+    }
+    .macbook-pro .XD {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 36px;
+    left: 409px;
+    }
+    .macbook-pro .AI {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 36px;
+    left: 537px;
+    }
+    .macbook-pro .ID {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 36px;
+    left: 665px;
+    }
+    .macbook-pro .LR {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 36px;
+    left: 793px;
+    }
+    .macbook-pro .PS {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 36px;
+    left: 921px;
+    }
+    .macbook-pro .codepen {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 144px;
+    left: 40px;
+    }
+    .macbook-pro .miro {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 143px;
+    left: 159px;
+    }
+    .macbook-pro .xcel {
+    position: absolute;
+    width: 64px;
+    height: 56px;
+    top: 143px;
+    left: 406px;
+    }
+    .macbook-pro .onedrive {
+    position: absolute;
+    width: 75px;
+    height: 47px;
+    top: 147px;
+    left: 535px;
+    }
+    .macbook-pro .google {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    top: 144px;
+    left: 676px;
+    }
+    .macbook-pro .dropbox {
+    position: absolute;
+    width: 62px;
+    height: 53px;
+    top: 145px;
+    left: 794px;
+    }
+    .macbook-pro .figma {
+    position: absolute;
+    width: 37px;
+    height: 55px;
+    top: 36px;
+    left: 49px;
+    }
+    .macbook-pro .vscode {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 36px;
+    left: 155px;
+    }
+    .macbook-pro .github {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    top: 35px;
+    left: 284px;
+    }
+    .macbook-pro .powerpoint {
+    position: absolute;
+    width: 62px;
+    height: 56px;
+    top: 144px;
+    left: 282px;
+    }
+    .macbook-pro .trello {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 143px;
+    left: 920px;
+    }
 
 
   /**
@@ -989,7 +1259,7 @@ textarea.contact-input {
 }
 
 .portfolio-card .btn-link {
-  display: flex;
+  display: center;
   align-items: center;
   gap: 5px;
   font-size: var(--fs-6);
@@ -1001,38 +1271,6 @@ textarea.contact-input {
   color: var(--orange-soda);
   font-size: 1.6rem;
 }
-
-
-
-  /**
-   * SKILLS
-   */
-   .skills .section-title { margin-block-end: 20px; }
-
-   .skills .section-text { margin-block-end: 70px; }
-   
-   
-   .skills-list {
-     display: grid;
-     gap: 25px;
-   }
-   
-   .skills-item .wrapper {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     margin-block-end: 10px;
-   }
-   
-   .skills-title,
-   .skills-data {
-     color: var(--white);
-     font-size: var(--fs-5);
-     font-family: var(--ff-barlow);
-     font-weight: var(--fw-800);
-   }
-   
- 
 
 
 
