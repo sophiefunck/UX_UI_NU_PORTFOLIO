@@ -9,11 +9,6 @@
 
 
 
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
   /**
@@ -1288,9 +1283,14 @@ textarea.contact-input {
 
   .contact-form { margin-block-end: 0; }
 
-  .contact-item { gap: 25px; }
+  .contact-item { gap: 25px;
+  color: rgb(255, 129, 192);
+  font-style: bold;
+  font-weight: 600pt;
+  font-size: 18px; }
 
-  .contact-icon { padding: 30px; }
+  .contact-icon { padding: 30px;
+   }
 
 
 

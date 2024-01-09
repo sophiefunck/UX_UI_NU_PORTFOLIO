@@ -11,14 +11,12 @@ aria-label = Toggle Menu
 <ion-icon name="menu-outline"></ion-icon>
 <ion-icon name="close-outline"></ion-icon>
 
-Home
-About
-Portfolio
-Skills
-Contact
-Blog
-
-Download CV
+HOME
+ABOUT
+PORTFOLIO
+SKILLS
+CONTACT
+RESUME
 
 
 
@@ -27,13 +25,13 @@ Download CV
 alt = Sophie's Photo
 
 
-Hello I'm
+Hello, I'm
 
 Sophie Funck
 
-UX/UI Designer
+UX/UI DESIGNER
 
-Adipisicing elit. Neque nulla voluptatum eos repellat deserunt nesciunt tempore porro totam.
+As an artist and designer, I am passionate about harnessing the transformative power of design to create a more enriching and beautiful world
 
 CONTACT
 
@@ -49,7 +47,6 @@ alt = Sophie's Photo
 
 
 
-I belive in the power of process
 
 I am a Designer & Researcher
 
@@ -57,9 +54,11 @@ After working post-graduation for two years in Savannah, I moved to Boston, MA t
 
 In August of 2023, I enrolled in Northwestern University’s UI/UX bootcamp, which began an exciting new career opportunity for this new chapter in my life. I am passionate about design, art, and people. and am excited to pursue a career as a UX/UI designer - where I can unite these passions to create a better and more beautiful world for everyone.
 
+PORTFOLIO BUTTON
 
 
-PORTFOLIO
+
+
 
 
 
@@ -90,42 +89,37 @@ Website Re-Design: United States Department of Education
 
 LEARN MORE
 
+THiRST
+
+An Art Magazine for Artists
+
+LEARN MORE
+
 
 
 
 #---------- SKILLS ----------#
 
-My Skills
+SKILLS
 
-I Develop Skills Regularly
+DESIGN:
+UX/UI Design, Prototyping, Wireframing, Moodboard, Storyboad,
+Brand Identity, User Flows, Sitemapping, Design Library
 
-Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
+RESEARCH:
+Personas, User Interviews, Affinity Diagrams, User Journey, Card Sorting, User Testing, A/B Testing, Pitch Deck, Data Analysis, 
+Design Thinking Strategy
 
-CSS
-95%
+TOOLS:
+ICONS
 
-React
-75%
 
-MongoDB
-90%
-
-Python
-70%
-
-PHP
-80%
-
-JavaScript
-75%
 
 
 
 #---------- CONTACT ----------#
 
-Don't be shy
-
-Drop Me a Line
+Let's Get in Touch 
 
 placeholder = Name
 
@@ -135,40 +129,26 @@ placeholder = Message
 
 Submit Message
 
-<ion-icon name="location"></ion-icon>
-Address
-20, London, United Kingdom
+<ion-icon name="WEBSITE"></ion-icon>
+www.sophiefunck.com
 
 <ion-icon name="mail"></ion-icon>
 Email
-hello@ethan.com
+funck.sophie@gmail.com
 
-<ion-icon name="call"></ion-icon>
-Phone
-+123 456 7890
+<ion-icon name="LinkedIn"></ion-icon>
+LinkedIn 
 
-
-
-#---------- BLOG ----------#
-
-Latest News
-
-Checkout My Recent Blogs
-
-Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate
-
-alt = Jim Morisson Says when the musics over turn off the light
-
-Web Development
-
-Jim Morisson Says when the musics over turn off the light
 
 
 
 #---------- FOOTER ----------#
 
+SOPHIE FUNCK
 
+LinkedIn
 
+Instagram
 
 #---------- BACK TO TOP ----------#
 
