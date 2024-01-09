@@ -1,10 +1,10 @@
-Ethan Ward - Web Developer from New York
+SOPHIE FUNCK UX/UI DESIGNER
 
 
 
 #---------- HEADER ----------#
 
-Ethan Ward
+SOPHIE FUNCK
 
 aria-label = Toggle Menu
 
